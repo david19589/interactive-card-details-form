@@ -1,0 +1,122 @@
+.backCardDiv {
+  width: 286px;
+  height: 157px;
+  transform: translate(75px, 32px);
+  border-radius: 10px;
+}
+.cardBack {
+  width: 286px;
+  height: 157px;
+}
+.cvcOnCard {
+  width: 20px;
+  height: 11px;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11.48px;
+  letter-spacing: 1.29px;
+  text-align: end;
+  color: #fff;
+  transform: translate(225px, -95px);
+}
+.frontCardDiv {
+  width: 285px;
+  height: 156.21px;
+  transform: translate(17px, -38px);
+  box-shadow: 1px 30px 30px -7px rgba(70, 95, 187, 0.37);
+  position: relative;
+  z-index: 10;
+  border-radius: 10px;
+}
+.cardFront {
+  width: 285px;
+  height: 156.21px;
+}
+.cardLogo {
+  width: 54px;
+  height: 30px;
+  transform: translate(17px, -140px);
+}
+.cardNumberOnCard {
+  width: 245px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22.97px;
+  letter-spacing: 2.2px;
+  color: #fff;
+  transform: translate(19px, -130px);
+}
+.nameOnCard {
+  width: 100px;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11.48px;
+  letter-spacing: 1.29px;
+  color: #fff;
+  transform: translate(19px, -120px);
+}
+.expDateOnCard {
+  width: 35px;
+  height: 11px;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11.48px;
+  letter-spacing: 1.29px;
+  color: #fff;
+  transform: translate(230px, -138px);
+}
+@media (min-width: 1440px) {
+  .backCardDiv {
+    width: 447px;
+    height: 245px;
+    transform: translate(270px, 440px);
+    box-shadow: 1px 15px 30px 0px rgb(0 0 0 / 17%);
+  }
+  .cardBack {
+    width: 447px;
+    height: 245px;
+  }
+  .frontCardDiv {
+    width: 447px;
+    height: 245px;
+    transform: translate(166px, -80px);
+    box-shadow: 1px 15px 30px 0px rgb(0 0 0 / 17%);
+  }
+  .cardFront {
+    width: 447px;
+    height: 245px;
+  }
+  .cardLogo {
+    width: 84px;
+    height: 47px;
+    transform: translate(25px, -220px);
+  }
+  .cardNumberOnCard {
+    width: 380px;
+    font-size: 28px;
+    line-height: 35.73px;
+    letter-spacing: 3.42px;
+    transform: translate(30px, -185px);
+  }
+  .nameOnCard {
+    width: 140px;
+    font-size: 14px;
+    line-height: 17.86px;
+    letter-spacing: 2px;
+    transform: translate(30px, -175px);
+  }
+  .expDateOnCard {
+    width: 55px;
+    font-size: 14px;
+    line-height: 17.86px;
+    letter-spacing: 2px;
+    transform: translate(365px, -202px);
+  }
+  .cvcOnCard {
+    width: 35px;
+    font-size: 14px;
+    line-height: 17.86px;
+    letter-spacing: 2px;
+    transform: translate(355px, -148px);
+  }
+}
